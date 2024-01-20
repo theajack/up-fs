@@ -1,0 +1,1 @@
+export type IJson<T = any> = Record<string, T>;

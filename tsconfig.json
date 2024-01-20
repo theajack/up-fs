@@ -23,9 +23,9 @@
         "paths": {}
     },
     "include": [
-        "src/**/*",
         ".eslintrc.js",
-        "scripts/**/*"
+        "scripts/**/*",
+        "src/**/*"
     ],
     "exclude": [
         "./node_modules"

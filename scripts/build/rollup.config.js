@@ -20,7 +20,7 @@ export default {
     output: {
         file: resolveRootPath('npm/index.min.js'),
         format: 'cjs',
-        name: 'Sener',
+        name: 'Upfs',
     },
     plugins: [
         uglify(),

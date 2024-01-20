@@ -1,10 +1,10 @@
 {
-    "name": "ebuild-templat-node-npm",
+    "name": "up-fs",
     "version": "0.0.1",
-    "description": "ebuild-templat-node-npm",
+    "description": "This makes it easier to use the node-fs module",
     "main": "index.min.js",
     "typings": "index.min.d.ts",
-    "repository": "git@github.com:theajack/ebuild-templat-node-npm.git",
+    "repository": "git@github.com:theajack/up-fs.git",
     "author": "tackchen <theajack@qq.com>",
     "scripts": {
         "lint": "eslint packages --ext ts",
@@ -14,8 +14,7 @@
         "build": "node scripts/build/build.js"
     },
     "nodemonConfig": {
-        "ignore": [
-        ]
+        "ignore": ["test/*"]
     },
     "license": "MIT",
     "devDependencies": {
@@ -29,7 +28,7 @@
         "@types/node": "^18.14.0",
         "@typescript-eslint/eslint-plugin": "^5.29.0",
         "@typescript-eslint/parser": "^5.29.0",
-        "esbuild": "^0.14.47",
+        "esbuild": "^0.19.11",
         "esbuild-plugin-d.ts": "^1.1.0",
         "eslint": "^8.18.0",
         "execa": "4.0.2",
@@ -45,7 +44,5 @@
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
-    },
-    "dependencies": {
     }
 }

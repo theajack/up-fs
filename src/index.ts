@@ -4,4 +4,10 @@
  * @Description: Coding something
  */
 
-export default 'Hello World!';
+import { UpFS } from './up-fs';
+
+export const fs = new UpFS();
+
+export { UpFS } from './up-fs';
+
+export default fs;
